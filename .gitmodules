@@ -19,3 +19,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
+[submodule "bundle/seoul256.vim"]
+	path = bundle/seoul256.vim
+	url = git@github.com:junegunn/seoul256.vim.git
