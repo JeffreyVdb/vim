@@ -10,6 +10,16 @@ set laststatus=2
 set cmdheight=1
 set shell=/bin/bash
 
+" Fuzzy searching
+if executable('ag')
+  " Use Ag over Grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and
+  " respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
 
 " Puppet settings
 autocmd FileType puppet setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
