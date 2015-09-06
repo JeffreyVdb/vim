@@ -22,3 +22,9 @@
 [submodule "bundle/seoul256.vim"]
 	path = bundle/seoul256.vim
 	url = git@github.com:junegunn/seoul256.vim.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/git-gutter"]
+	path = bundle/git-gutter
+	url = git@github.com:airblade/vim-gitgutter.git
