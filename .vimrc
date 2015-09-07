@@ -1,9 +1,10 @@
 execute pathogen#infect()
+filetype plugin indent on
+
+" Look and feel
 syntax on
 set nu
-filetype plugin indent on
 colorscheme seoul256
-
 set cursorline
 set t_Co=256
 set laststatus=2
@@ -30,4 +31,9 @@ autocmd Filetype python setlocal ts=4 sts=4 sw=4 expandtab
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='bubblegum'
+
+" Shortcuts
+map <C-n> :NERDTreeToggle<CR>
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
