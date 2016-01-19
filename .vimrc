@@ -10,6 +10,8 @@ set t_Co=256
 set laststatus=2
 set cmdheight=1
 set shell=/bin/bash
+set mouse=a
+set colorcolumn=80,100
 
 " Fuzzy searching
 if executable('ag')
