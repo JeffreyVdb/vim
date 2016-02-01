@@ -23,11 +23,19 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
+if &term =~ '256color'
+  " disable Background Color Erase (BCE) so that color schemes
+  " render properly when inside 256-color tmux and GNU screen.
+  " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+  set t_ut=
+endif
 
 " Puppet settings
 autocmd FileType puppet setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 expandtab
+autocmd Filetype sh setlocal ts=4 sts=4 sw=4 expandtab
+autocmd Filetype bash setlocal ts=4 sts=4 sw=4 expandtab
 
 " Powerline
 let g:airline_powerline_fonts = 1
