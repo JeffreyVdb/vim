@@ -1,6 +1,3 @@
-[submodule "bundle/.vim/bundle/puppet"]
-	path = bundle/puppet
-	url = git://github.com/rodjek/vim-puppet.git
 [submodule "bundle/seoul256"]
 	path = bundle/seoul256
 	url = git@github.com:junegunn/seoul256.vim.git
@@ -31,3 +28,6 @@
 [submodule "bundle/salt-vim"]
 	path = bundle/salt-vim
 	url = git@github.com:saltstack/salt-vim.git
+[submodule "bundle/vim-puppet"]
+	path = bundle/vim-puppet
+	url = git://github.com/rodjek/vim-puppet.git
