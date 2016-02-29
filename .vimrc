@@ -12,6 +12,7 @@ set cmdheight=1
 set shell=/bin/bash
 set mouse=a
 set colorcolumn=80,100
+set shortmess=a
 
 " Fuzzy searching
 if executable('ag')
@@ -36,6 +37,7 @@ autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 expandtab
 autocmd Filetype sh setlocal ts=4 sts=4 sw=4 expandtab
 autocmd Filetype bash setlocal ts=4 sts=4 sw=4 expandtab
+autocmd Filetype zsh setlocal ts=4 sts=4 sw=4 expandtab
 
 " Powerline
 let g:airline_powerline_fonts = 1
