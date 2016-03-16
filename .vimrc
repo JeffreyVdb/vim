@@ -13,6 +13,7 @@ set shell=/bin/bash
 set mouse=a
 set colorcolumn=80,100
 set clipboard=unnamedplus
+set shortmess=a
 
 " Fuzzy searching
 if executable('ag')
