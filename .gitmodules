@@ -37,3 +37,6 @@
 [submodule "bundle/vim-vagrant"]
 	path = bundle/vim-vagrant
 	url = https://github.com/hashivim/vim-vagrant.git
+[submodule "bundle/vim-salt"]
+	path = bundle/vim-salt
+	url = https://github.com/saltstack/salt-vim.git
