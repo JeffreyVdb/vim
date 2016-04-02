@@ -4,7 +4,7 @@ filetype plugin indent on
 " Look and feel
 syntax on
 set nu
-colorscheme seoul256
+colorscheme atom-dark-256
 set cursorline
 set t_Co=256
 set laststatus=2
