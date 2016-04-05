@@ -4,7 +4,6 @@ filetype plugin indent on
 " Look and feel
 syntax on
 set nu
-colorscheme atom-dark-256
 set cursorline
 set t_Co=256
 set laststatus=2
@@ -14,6 +13,12 @@ set mouse=a
 set colorcolumn=80,100
 set clipboard=unnamedplus
 set shortmess=a
+
+" seoul color scheme
+let g:seoul256_background = 237
+colorscheme seoul256
+set background=dark
+
 
 " Fuzzy searching
 if executable('ag')
