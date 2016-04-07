@@ -11,7 +11,7 @@ set cmdheight=1
 set shell=/bin/zsh
 set mouse=a
 set colorcolumn=80,100
-set clipboard=unnamedplus
+set clipboard=unnamed
 set shortmess=a
 
 " seoul color scheme
