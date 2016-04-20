@@ -49,3 +49,6 @@
 [submodule "bundle/editorconfig"]
 	path = bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/vim-jinja2"]
+	path = bundle/vim-jinja2
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
